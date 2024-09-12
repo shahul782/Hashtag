@@ -1,52 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
-    display: flex;
-    width: 90%;
-    max-width: 1200px;
-    height: 80vh;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .left, .right {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ddd;
-  }
-  
-  textarea {
-    width: 100%;
-    height: 100%;
-    border: none;
-    resize: none;
-    font-size: 16px;
-  }
-  
-  .right {
-    background-color: #fafafa;
-  }
-  
-  #hashtags {
-    margin-top: 20px;
-  }
-  
-  #hashtags span {
-    display: block;
-    background-color: #e0e0e0;
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #333;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+}
+
+.right {
+  background-color: #fafafa;
+}
+
+#hashtags {
+  margin-top: 20px;
+}
+
+#hashtags span {
+  display: block;
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for header and copy button */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#copyButton {
+  padding: 5px 10px;
+  /* background-color: #007BFF; */
+  color:gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
